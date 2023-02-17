@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T16:40:42.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.20" etag="C_X3jylD3su3aZVF8X9n" type="github"><diagram name="Page-1" id="r6vBvrOooTeHCUdJ9DaU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-17T16:42:17.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="PZXsfxJsH4s2q1_sisOP" version="20.8.20" type="github">
+  <diagram name="Page-1" id="r6vBvrOooTeHCUdJ9DaU">
+    <mxGraphModel dx="548" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vmz3vfsSCrVbw2bJImq--1" value="void In_phantu(float A[], int n) {&#xa;  int i, j, dem, dem_tong = 0;&#xa;  cout &lt;&lt; &quot;\nCac phan tu khac nhau la&quot;;&#xa;  for (i = 0; i &lt; n - 1; i++) {&#xa;    dem = 0;&#xa;    for (j = i + 1; j &lt; n; j++)&#xa;      if (A[i] == A[j]) dem++;&#xa;    if (dem == 0) {&#xa;      cout &lt;&lt; &quot; &quot; &lt;&lt; A[i];&#xa;      dem_tong++;&#xa;    }&#xa;  }&#xa;  if (dem_tong == 0) cout &lt;&lt; &quot;\nKhong co so nao ca&quot;;&#xa;  else cout &lt;&lt; &quot; &quot; &lt;&lt; A[i];&#xa;  return;&#xa;}" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="310" height="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
