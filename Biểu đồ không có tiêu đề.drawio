@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-04-05T05:55:39.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.1.4" etag="Pfp--MB3GOHtefJQqX2-" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-05T05:59:10.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="a9u-h-WD7boMD7SbHfy1" version="21.1.4" type="github">
   <diagram name="Trang-1" id="ZbRz-hckCCUjyN23ai8m">
-    <mxGraphModel>
+    <mxGraphModel dx="1114" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nA8IXqnX41yCRNvTGrDV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nA8IXqnX41yCRNvTGrDV-1" target="nA8IXqnX41yCRNvTGrDV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nA8IXqnX41yCRNvTGrDV-1" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="50" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nA8IXqnX41yCRNvTGrDV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nA8IXqnX41yCRNvTGrDV-2" target="nA8IXqnX41yCRNvTGrDV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nA8IXqnX41yCRNvTGrDV-2" value="Ghi nhận thông tin từ các cảm biến" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nA8IXqnX41yCRNvTGrDV-8" value="true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nA8IXqnX41yCRNvTGrDV-4" target="nA8IXqnX41yCRNvTGrDV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nA8IXqnX41yCRNvTGrDV-9" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nA8IXqnX41yCRNvTGrDV-4" target="nA8IXqnX41yCRNvTGrDV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nA8IXqnX41yCRNvTGrDV-4" value="Có kết nối mạng hay không?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nA8IXqnX41yCRNvTGrDV-6" value="Lấy model mới từ internet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nA8IXqnX41yCRNvTGrDV-7" value="Lấy model được nhúng trong mạch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
